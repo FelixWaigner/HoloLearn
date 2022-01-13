@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 3306b57cb435fc346986b9a8b3a64046
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Slate
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 801169d16c5901e42bcdceafbec49554, type: 3}
+  - {fileID: 12800000, guid: a10e5f8406bc12f4cb56161a1a49fdaa, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
