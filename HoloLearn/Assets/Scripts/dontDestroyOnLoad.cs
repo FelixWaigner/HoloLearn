@@ -9,10 +9,4 @@ public class dontDestroyOnLoad : MonoBehaviour
     {
         DontDestroyOnLoad(gameObject);
     }
-
-    public GameObject obj;
-    public void dontDestroy()
-    {
-        DontDestroyOnLoad(obj);
-    }
 }

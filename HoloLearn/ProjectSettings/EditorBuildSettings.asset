@@ -8,10 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Image Target.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Motor einbauen.unity
     guid: cab60175f541d304caee1e3fea68ad94
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/2. Scene.unity
     guid: 95688a033e6f5f842a77e83665cd0afa
   - enabled: 0
