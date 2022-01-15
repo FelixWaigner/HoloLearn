@@ -9,6 +9,8 @@ public class speechInput : MonoBehaviour, IMixedRealitySpeechHandler
 
     public togglePanel TogglePannel;
 
+    public GameObject panel;
+
     // Start is called before the first frame update
     void Start()
     {

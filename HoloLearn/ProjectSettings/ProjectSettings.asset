@@ -140,6 +140,7 @@ PlayerSettings:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 215035071244975549, guid: a8b64af4a7ebade41bfcbd250d9dde60, type: 2}
   - {fileID: -8273079558762050695, guid: c3f36788c6f8f4443a233aa1d3acf7b4, type: 2}
   - {fileID: 8824964356027178750, guid: cb13e51e0d8d77442a9947b6b6e45285, type: 2}
@@ -625,7 +626,7 @@ PlayerSettings:
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
   metroPackageName: Template3D
-  metroPackageVersion: 1.0.62.0
+  metroPackageVersion: 1.0.73.0
   metroCertificatePath: Assets\WSATestCertificate.pfx
   metroCertificatePassword: 
   metroCertificateSubject: DefaultCompany

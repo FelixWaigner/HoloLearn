@@ -6240,7 +6240,6 @@ GameObject:
   - component: {fileID: 472397688}
   - component: {fileID: 472397689}
   - component: {fileID: 472397690}
-  - component: {fileID: 472397691}
   m_Layer: 0
   m_Name: Scene Controller
   m_TagString: Untagged
@@ -6287,19 +6286,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerPrefs: {fileID: 429882768}
---- !u!114 &472397691
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 472397687}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a9554067e36924a47be6dd575482d1b2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HologramPosition: {fileID: 1680982812}
 --- !u!1 &480498633
 GameObject:
   m_ObjectHideFlags: 0
