@@ -46,7 +46,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _IridescentSpectrumMap:
-        m_Texture: {fileID: 2800000, guid: 20be79f624f241d44b9fdaa3b423ecef, type: 3}
+        m_Texture: {fileID: 2800000, guid: 18912d35321fe1b4b87ac275d4df416a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _LightMapTex:

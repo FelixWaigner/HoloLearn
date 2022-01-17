@@ -4,11 +4,16 @@ using UnityEngine;
 
 public class UIPosition : MonoBehaviour
 {
-    public playerPrefs playerPrefs;
+    public GameObject ui;
+    public Vector3 xyz;
 
-    // Start is called before the first frame update
-    void Start()
+    public void saveUI()
     {
-        playerPrefs.Load();
+        xyz = ui.transform.position;
+    }
+
+    public void loadUI()
+    {
+        ui.transform.position = xyz;
     }
 }
