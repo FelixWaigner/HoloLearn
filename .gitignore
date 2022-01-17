@@ -63,6 +63,8 @@ crashlytics-build.properties
 
 #Vuforia package
 /HoloLearn/Packages/com.ptc.vuforia.engine-10.3.2.tgz
+/HoloLearn/Assets/com.ptc.vuforia.engine-10.3.2.tgz
+/HoloLearn/Assets/com.ptc.vuforia.engine-10.3.2 1.tgz
 
 #Vuforia API Key
 /HoloLearn/Assets/Resources/VuforiaConfiguration.asset
