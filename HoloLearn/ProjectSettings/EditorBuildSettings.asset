@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Test.unity
     guid: 40ace3e5fb39590458be2183c4526739
+  - enabled: 0
+    path: Assets/Scenes/Alex.unity
+    guid: 6c34a8f8d0922ef4c9ef08c54f39f840
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: cb13e51e0d8d77442a9947b6b6e45285, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: c3f36788c6f8f4443a233aa1d3acf7b4, type: 2}
