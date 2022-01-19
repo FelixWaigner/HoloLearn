@@ -16,6 +16,8 @@ public class setAnchor : MonoBehaviour
         PlayerPrefs.SetFloat("anchorX", x);
         PlayerPrefs.SetFloat("anchorY", y);
         PlayerPrefs.SetFloat("anchorZ", z);
+
+        Load();
     }
 
     public void Load()
