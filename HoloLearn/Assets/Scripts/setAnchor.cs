@@ -4,18 +4,30 @@ using UnityEngine;
 
 public class setAnchor : MonoBehaviour
 {
-    public GameObject Anweisungen;
+    public float x, y, z;
 
-   public void setAnchorPosition()
+
+    public void Save()
     {
-        Vector3 imgXYZ = GameObject.Find("ImageTarget").transform.position;
-        Anweisungen.transform.position = imgXYZ;
-        Anweisungen.SetActive(true);
+        x = transform.position.x;
+        y = transform.position.y;
+        z = transform.position.z;
 
-        //Anweisungen.transform.parent = GameObject.Find("PositionAnchor").transform;
-        //Anweisungen.SetActive(true);
+        PlayerPrefs.SetFloat("anchorX", x);
+        PlayerPrefs.SetFloat("anchorY", y);
+        PlayerPrefs.SetFloat("anchorZ", z);
     }
 
-    
+    public void Load()
+    {
+        x = PlayerPrefs.GetFloat("anchorX");
+        y = PlayerPrefs.GetFloat("anchorY");
+        z = PlayerPrefs.GetFloat("anchorZ");
+
+        Vector3 LoadPosition = new Vector3(x, y, z);
+        transform.position = LoadPosition + Camera.main.transform.position; ;
+    }
+
+
 
 }
